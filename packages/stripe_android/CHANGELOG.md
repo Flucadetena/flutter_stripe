@@ -1,3 +1,13 @@
+## 10.2.0
+
+ - **FIX**: add bankidentifiercode to ideal paymentdata (#1522).
+ - **FIX**: upgrade to android agp 8 (#1479).
+ - **FIX**: #1246 handle empty params on confirmPayment (#1286).
+ - **FEAT**: add retrieveSetupIntent (#1302).
+ - **FEAT**: release 9.2.1 (#1262).
+ - **FEAT**: Detect uninitialized stripeSdk on Android (#1030).
+ - **DOCS**: improve readme (#539).
+
 ## 10.1.1
 - Fix build error on SDK 34
 

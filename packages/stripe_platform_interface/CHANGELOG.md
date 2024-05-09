@@ -1,3 +1,7 @@
+## 10.2.1
+
+ - Fixed Type cast fails on Customer Sheet cancel (#1721)
+
 ## 10.2.0
 
  - **FIX**: add bankidentifiercode to ideal paymentdata (#1522).

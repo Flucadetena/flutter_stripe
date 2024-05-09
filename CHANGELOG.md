@@ -15,6 +15,78 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`stripe_platform_interface` - `v10.2.1`](#stripe_platform_interface---v1021)
+ - [`stripe_android` - `v10.2.0`](#stripe_android---v1020)
+ - [`stripe_checkout` - `v1.1.0`](#stripe_checkout---v110)
+ - [`stripe_ios` - `v10.2.0`](#stripe_ios---v1020)
+ - [`stripe_js` - `v3.5.0`](#stripe_js---v350)
+ - [`flutter_stripe_web` - `v5.1.2`](#flutter_stripe_web---v512)
+ - [`flutter_stripe` - `v10.1.3`](#flutter_stripe---v1013)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `flutter_stripe_web` - `v5.1.2`
+ - `flutter_stripe` - `v10.1.3`
+
+---
+
+#### `stripe_platform_interface` - `v10.2.1`
+
+ - Fixed Type cast fails on Customer Sheet cancel (#1721)
+
+#### `stripe_android` - `v10.2.0`
+
+ - **FIX**: add bankidentifiercode to ideal paymentdata (#1522).
+ - **FIX**: upgrade to android agp 8 (#1479).
+ - **FIX**: #1246 handle empty params on confirmPayment (#1286).
+ - **FEAT**: add retrieveSetupIntent (#1302).
+ - **FEAT**: release 9.2.1 (#1262).
+ - **FEAT**: Detect uninitialized stripeSdk on Android (#1030).
+ - **DOCS**: improve readme (#539).
+
+#### `stripe_checkout` - `v1.1.0`
+
+ - **FIX**: upgrade to android agp 8 (#1479).
+ - **FIX**: web_checkout (#973).
+ - **FEAT**: release 9.2.1 (#1262).
+ - **FEAT**: tokens for web (#1079).
+ - **FEAT**: update checkout (#582).
+ - **DOCS**: fix typo "succesfullly" in `checkout.dart` (#1013).
+ - **DOCS**: update checkout readme.
+
+#### `stripe_ios` - `v10.2.0`
+
+ - **FIX**: #1246 handle empty params on confirmPayment (#1286).
+ - **FIX**: apple pay (#1202).
+ - **FIX**: implemented handleURLCallback method for iOS iDeal payment. (#939).
+ - **FEAT**: release 9.2.1 (#1262).
+
+#### `stripe_js` - `v3.5.0`
+
+ - **FIX**: invalid argument `requires_capture` on web (#1431).
+ - **FIX**: PaymentConfirmationRedirect enum value (#1221).
+ - **FIX**: confirmation redirect and stripeAccountId (#1201).
+ - **FEAT**: release versions (#1283).
+ - **FEAT**: web fixes and features (#1270).
+ - **FEAT**: release 9.2.1 (#1262).
+ - **FEAT**: tokens for web (#1079).
+ - **FEAT**: stripe js (#1052).
+
+
+## 2024-05-09
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`stripe_platform_interface` - `v10.2.0`](#stripe_platform_interface---v1020)
  - [`flutter_stripe_web` - `v5.1.1`](#flutter_stripe_web---v511)
  - [`flutter_stripe` - `v10.1.2`](#flutter_stripe---v1012)

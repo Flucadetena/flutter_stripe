@@ -1,3 +1,10 @@
+## 10.2.0
+
+ - **FIX**: #1246 handle empty params on confirmPayment (#1286).
+ - **FIX**: apple pay (#1202).
+ - **FIX**: implemented handleURLCallback method for iOS iDeal payment. (#939).
+ - **FEAT**: release 9.2.1 (#1262).
+
 ## 10.1.0
 
 **Features**
